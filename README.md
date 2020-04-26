@@ -1,3 +1,3 @@
-## os201 - Nanda Ryaas Absar
+## Welcome!
 
-Operating System Course Repository
+This is ryaasabsar site to learn about GitHub Pages and jekyll
