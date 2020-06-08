@@ -1,0 +1,37 @@
+Script started on Mon 08 Jun 2020 07:39:13 PM WIB
+nanda.ryaas@badak:~/Demos/UAS$ PS1="$ "
+$ echo $GitHubUser
+ryaasabsar
+$ echo $PSTAMP
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+$ eval $PSTAMP
+200608-193935-a5b6-UAS/>
+$ PS1="\$(eval \$PSTAMP)"
+200608-193939-3365-UAS/> echo -e $CEKSAYA
+ryaasabsar ZCZCSCRIPTSTART 200601-211747 ryaasabsar
+ ryaasabsar ryaasabsar 200601-211806-82e9-UAS/ 200601-211806 SEQOK SUMOK 82e9caa7
+ ryaasabsar ryaasabsar 200601-211811-3334-UAS/ 200601-211811 SEQOK SUMOK 333444c2
+ ryaasabsar ryaasabsar 200601-211818-752a-UAS/ 200601-211818 SEQOK SUMOK 752a1c5e
+ ryaasabsar ryaasabsar 200601-211826-4a05-UAS/ 200601-211826 SEQOK SUMOK 4a057181
+ ryaasabsar ZCZCSCRIPTSTART 200601-211829 SEQOK
+
+200608-193951-8358-UAS/> echo -e $CEKSEBELA1
+ryaasabsar ZCZCSCRIPTSTART 200529-131641 Salman-Ahmad-N
+ ryaasabsar Salman-Ahmad-N 200529-131705-41b2-salman.ahmad/ 200529-131705 SEQOK SUMOK 41b29514
+ ryaasabsar Salman-Ahmad-N 200529-131712-8d2e-salman.ahmad/ 200529-131712 SEQOK SUMOK 8d2ee3d8
+ ryaasabsar Salman-Ahmad-N 200529-131722-5262-salman.ahmad/ 200529-131722 SEQOK SUMOK 526216f6
+ ryaasabsar Salman-Ahmad-N 200529-131731-2859-salman.ahmad/ 200529-131731 SEQOK SUMOK 28591edf
+ ryaasabsar ZCZCSCRIPTSTOP 200529-131736 SEQOK
+
+200608-193957-1932-UAS/> echo -e $CEKSEBELA2
+ryaasabsar ZCZCSCRIPTSTART 200603-233538 salsabiladnan
+ ryaasabsar salsabiladnan 200603-233609-885b-salsabila.adnan/ 200603-233609 SEQOK SUMOK 885b57ee
+ ryaasabsar salsabiladnan 200603-233621-ab81-salsabila.adnan/ 200603-233621 SEQOK SUMOK ab81cb1c
+ ryaasabsar salsabiladnan 200603-233629-735a-salsabila.adnan/ 200603-233629 SEQOK SUMOK 735a523c
+ ryaasabsar salsabiladnan 200603-233637-af7c-salsabila.adnan/ 200603-233637 SEQOK SUMOK af7cb191
+ ryaasabsar ZCZCSCRIPTSTOP 200603-233646 SEQOK
+
+200608-194003-ba5e-UAS/> exit
+exit
+
+Script done on Mon 08 Jun 2020 07:40:08 PM WIB
